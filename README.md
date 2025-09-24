@@ -11,9 +11,7 @@ A simple **console‑based raster image editor** written in C++, supporting **PP
 - [Usage / Commands](#usage--commands)  
 - [Examples](#examples)  
 - [Design & Architecture](#design--architecture)  
-- [Contributing](#contributing)  
 - [License](#license)  
-- [Acknowledgements](#acknowledgements)  
 
 ---
 
@@ -142,34 +140,7 @@ Diagram in `Diagram.png` helps illustrate module relationships and data flow.
 
 ---
 
-## Contributing
-
-Contributions are welcome! Here are some ideas:
-
-- Add more image operations (blur, brightness/contrast, etc.)  
-- Support additional image formats (BMP, PNG, JPEG)  
-- Improve error handling and user feedback  
-- Add unit tests / automated tests  
-- Add a Makefile or CMake build system  
-
-**Steps to contribute:**
-
-1. Fork the repository  
-2. Create a new branch (`git checkout -b feature/my-feature`)  
-3. Make changes / additions  
-4. Commit your changes (`git commit -m "Add <feature>"`)  
-5. Push to your fork (`git push origin feature/my-feature`)  
-6. Open a Pull Request  
-
-Please adhere to code style, add comments, and test your changes.
-
----
-
 ## License
-
-> *(If there is a license in the repo — include it here. If not, choose one you prefer, e.g. MIT, Apache, etc.)*
-
-For example:
 
 ```
 MIT License  
@@ -179,9 +150,3 @@ Permission is hereby granted, free of charge, to any person obtaining a copy...
 ```
 
 ---
-
-## Acknowledgements
-
-- Thanks to contributors, testers, and anyone who gave feedback  
-- Based on standard PPM / PGM / PBM file format specs  
-- Inspiration from image processing tutorials and libraries
