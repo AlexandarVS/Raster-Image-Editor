@@ -91,10 +91,8 @@ Once running, the console app may prompt you for commands or arguments. Example 
 ```
 load <filename>       # Load an image file (PPM / PGM / PBM)
 save <filename>       # Save current image
-rotate <angle>        # Rotate by given degrees (e.g. 90, 180, 270)
-flip <horizontal|vertical>  # Flip image
-crop x y width height # Crop a region
-help                  # Show available commands
+rotate <left|right>   # Rotate by given degrees
+flip <top|left>       # Flip image
 exit / quit           # Exit the program
 ```
 
