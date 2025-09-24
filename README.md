@@ -25,7 +25,7 @@ It is intended for educational purposes or as a small utility to demonstrate ima
 ## Features
 
 - Read and write PPM (color), PGM (grayscale), and PBM (black & white) images  
-- Support for basic image transformations (rotate, flip, crop, etc.)  
+- Support for basic image transformations (rotate, flip, etc.)  
 - Command‑line interface (no GUI)  
 - Modular design to allow adding new operations or formats  
 - Example images included (e.g. `tiger.ppm`, `ship.pgm`, `camera.pbm`)  
@@ -38,7 +38,7 @@ It is intended for educational purposes or as a small utility to demonstrate ima
 Raster-Image-Editor/
 ├── core/             # core logic and image processing classes
 ├── transforms/       # modules for image transforms (rotate, flip, etc.)
-├── images/           # sample image files (PPM, PGM, PBM)
+├── images/           # image design
 ├── main.cpp          # entry point and command interface
 ├── Diagram.png       # architecture or workflow diagram  
 └── …                 # additional files, headers, etc.
@@ -49,7 +49,7 @@ Some important files:
 - `main.cpp` — the application entry point  
 - `core/` — contains core image data structures, I/O routines  
 - `transforms/` — image transformation operations  
-- `images/` — sample files to test and demonstrate functionality  
+- `images/` — image containters
 - `Diagram.png` — visual representation of modules or process  
 
 ---
@@ -117,7 +117,7 @@ You can chain commands or apply transformations in sequence.
 
 3. Rotate 90 degrees:
    ```
-   > rotate 90
+   > rotate left
    ```
 
 4. Save result:
