@@ -107,7 +107,7 @@ You can chain commands or apply transformations in sequence.
 1. Load a PPM:
    ```
    > load tiger.ppm
-   Loaded image: tiger.ppm (width=..., height=...)
+   Loaded image: tiger.ppm
    ```
 
 2. Flip horizontally:
